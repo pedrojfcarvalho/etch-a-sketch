@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-size {
+    justify-self: center;
+    width: 25%;
+    padding: 10px;
+    margin: 25px;;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cell {
+    height: 60px;
+    border: 1px solid red;
+    background-color: blue;
+}
